@@ -57,5 +57,4 @@ def part2(g):
             if stop: break
     return tot
 
-
 print(part2(g))
