@@ -51,7 +51,7 @@ def part2(N, s):
             p += l + skip
             skip += 1
     d = reduce(a)
-    return ''.join(['{:02x}'.format(dd) for dd in d])
+    return ''.join([f'{i:02x}' for i in d])
 
 assert part2(N, '') == 'a2582a3a0e66e6e86e3812dcb672a272'
 assert part2(N, 'AoC 2017') == '33efeb34ea91902bb2f59c9920caa6cd'
